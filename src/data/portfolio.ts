@@ -48,9 +48,9 @@ export const navItems = [
 ];
 
 export const about = [
-  "I’m a software engineer interested in building reliable tools that connect low-level systems, applied AI, and practical user workflows.",
-  "My work spans C++ systems projects, ML-assisted productivity tools, robotics software, and full-stack applications.",
-  "This portfolio is intentionally simple: a place to share projects, experience, and the technologies I am growing with."
+"My interest in programming started in fifth grade, when I used Scratch to build a simple platformer game. What began as a way to make a character jump across the screen quickly turned into a curiosity about how software works beneath the surface.",
+"Since then, I’ve become interested in building reliable tools that connect low-level systems, applied AI, and practical user workflows. As a Computer Science student at Michigan State University, my in-class and personal work spans C++ systems projects, ML-assisted productivity tools, robotics software, and full-stack applications.",
+"I’m drawn to engineering challenges that combine technical depth with real-world usefulness. This portfolio is a place to share the projects, experience, and technologies I’m continuing to grow with."
 ];
 
 export const projects: Project[] = [

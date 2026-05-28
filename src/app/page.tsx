@@ -19,10 +19,8 @@ export default function Home() {
           <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-[0.8fr_1.2fr] lg:px-8">
             <SectionHeading
               eyebrow="About"
-              title="TODO."
-              description="My interest in programming started in fifth grade, when I used Scratch to build a simple platformer game. That early curiosity grew into a passion for understanding how software works beneath the surface and how it can be used to solve practical problems.
-
-Today, as a student at Michigan State University, I work on projects across systems programming, applied AI tools, robotics software, and full-stack development. I’m drawn to engineering challenges that combine technical depth with real-world impact."
+              title="From Scratch to Software Systems."
+              description=""
             />
             <div className="space-y-5 border-l border-ink-200 pl-6 text-base leading-8 text-ink-700">
               {about.map((paragraph) => (
