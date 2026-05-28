@@ -26,9 +26,9 @@ export type SkillsGroupData = {
 export const profile = {
   name: "Parker Churchill",
   role: "Entry-Level Software Engineer",
-  location: "Detroit, Michigan",
+  location: "Ann Arbor, Michigan",
   intro:
-    "I build reliable, accessible web applications with clean interfaces, thoughtful details, and maintainable code.",
+    "Software Engineer building practical systems across backend tools, applied AI, robotics, and low-level computing.",
   email: "Church66@msu.edu",
   links: {
     resume: "/resume",
@@ -48,8 +48,8 @@ export const navItems = [
 ];
 
 export const about = [
-  "I am a software engineer focused on building practical, maintainable products. I enjoy turning ambiguous problems into organized, usable interfaces.",
-  "My current interests include full-stack web development, accessibility, API design, and improving the small details that make software feel dependable.",
+  "I’m a software engineer interested in building reliable tools that connect low-level systems, ",
+  "applied AI, and practical user workflows. My work spans C++ systems projects, ML-assisted productivity tools, robotics software, and full-stack applications.",
   "This portfolio is intentionally simple: a place to share projects, experience, and the technologies I am growing with."
 ];
 
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "App Router"],
     status: "Live portfolio",
     links: {
-      github: "https://github.com/pchurchil1"
+      github: "https://github.com/pchurchil1/Personal-Portfolio"
     }
   },
   {
@@ -91,24 +91,13 @@ export const projects: Project[] = [
 
 export const experience: Experience[] = [
   {
-    role: "Software Engineering Student",
-    company: "Personal Projects",
-    period: "2024 - Present",
-    location: "Remote",
+    role: "Software Engineering Intern",
+    company: "Bosch",
+    period: "May 2025 - Present",
+    location: "Farmington Hills, MI",
     description: [
-      "Built responsive web interfaces using React, TypeScript, and modern CSS tooling.",
-      "Practiced breaking features into reusable components and keeping project content easy to update.",
-      "Focused on accessibility, semantic HTML, and clear user flows."
-    ]
-  },
-  {
-    role: "Technical Support / Customer-Facing Role",
-    company: "Placeholder Company",
-    period: "2022 - 2024",
-    location: "Michigan",
-    description: [
-      "Solved user problems in a detail-oriented environment with clear communication and follow-through.",
-      "Documented recurring issues and collaborated with teammates to improve repeatable workflows."
+      "TODO",
+      "TODO."
     ]
   }
 ];
