@@ -5,8 +5,9 @@ import { profile } from "@/data/portfolio";
 const heroLinks = [
   {
     label: "Resume",
-    href: profile.links.resume,
-    icon: FileText
+    href: profile.links.resumePdf,
+    icon: FileText,
+    download: "Parker-Churchill-Resume.pdf"
   },
   {
     label: "GitHub",
@@ -53,6 +54,7 @@ export function Hero() {
                   href={link.href}
                   target={link.external ? "_blank" : undefined}
                   rel={link.external ? "noreferrer" : undefined}
+                  download={link.download}
                   className={`inline-flex min-h-11 items-center justify-center gap-2 rounded-md px-5 py-3 text-sm font-semibold shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-ink-900 focus:ring-offset-2 ${
                     isPrimary
                       ? "bg-ink-950 text-white hover:-translate-y-0.5 hover:bg-ink-800 hover:shadow-soft"

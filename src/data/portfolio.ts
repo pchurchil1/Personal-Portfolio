@@ -29,11 +29,12 @@ export const profile = {
   location: "Detroit, Michigan",
   intro:
     "I build reliable, accessible web applications with clean interfaces, thoughtful details, and maintainable code.",
-  email: "parker.churchill@example.com",
+  email: "Church66@msu.edu",
   links: {
     resume: "/resume",
-    github: "https://github.com/parkerchurchill",
-    linkedin: "https://www.linkedin.com/in/parkerchurchill/",
+    resumePdf: "/resume.pdf",
+    github: "https://github.com/pchurchil1",
+    linkedin: "https://www.linkedin.com/in/parker-churchill-841b71247/",
     contact: "#contact"
   }
 };
@@ -54,33 +55,37 @@ export const about = [
 
 export const projects: Project[] = [
   {
-    title: "Portfolio Website",
+    title: "Personal Portfolio Website",
     summary: "A responsive personal site built with Next.js, TypeScript, and Tailwind CSS.",
     description:
-      "Designed and built a polished portfolio foundation with reusable components, editable content data, and accessible section navigation.",
+      "Designed and built this portfolio as a polished, accessible home base for projects, experience, resume access, and contact links.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "App Router"],
-    status: "Production-ready foundation",
+    status: "Live portfolio",
     links: {
-      github: "https://github.com/parkerchurchill"
+      github: "https://github.com/pchurchil1"
     }
   },
   {
-    title: "Task Management App",
-    summary: "A focused app for organizing tasks, priorities, and project progress.",
+    title: "Atlas REST Explorer",
+    summary: "A developer-focused tool for exploring REST API endpoints and responses.",
     description:
-      "Placeholder project for a full-stack application with CRUD workflows, responsive layouts, and clean state management.",
-    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL"],
-    status: "Case study placeholder",
-    links: {}
+      "Built to make API exploration easier with a practical interface for sending requests, inspecting responses, and iterating on REST workflows.",
+    technologies: ["JavaScript", "REST APIs", "Developer Tools", "Frontend"],
+    status: "API tooling",
+    links: {
+      github: "https://github.com/pchurchil1/Atlas-REST-Explorer"
+    }
   },
   {
-    title: "API Dashboard",
-    summary: "A dashboard concept for monitoring API health, usage, and recent activity.",
+    title: "Vehicle Telemetry API",
+    summary: "A backend API for working with vehicle telemetry and operational data.",
     description:
-      "Placeholder project for presenting metrics, loading states, empty states, and data visualizations in a production-style interface.",
-    technologies: ["Next.js", "REST APIs", "Tailwind CSS", "Charts"],
-    status: "Interface concept",
-    links: {}
+      "Created a service-oriented API foundation for receiving, organizing, and exposing telemetry-style vehicle data through structured endpoints.",
+    technologies: ["Backend", "REST APIs", "Node.js", "Telemetry"],
+    status: "Backend service",
+    links: {
+      github: "https://github.com/pchurchil1/vehicle-telemetry-api"
+    }
   }
 ];
 

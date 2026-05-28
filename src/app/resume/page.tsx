@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, Mail } from "lucide-react";
+import { ArrowLeft, Download, Mail } from "lucide-react";
 import { experience, profile, projects, skills } from "@/data/portfolio";
 
 export const metadata: Metadata = {
@@ -27,13 +27,23 @@ export default function ResumePage() {
               <p className="mt-2 text-lg font-medium text-blue-700">{profile.role}</p>
               <p className="mt-3 max-w-2xl text-sm leading-6 text-ink-600">{profile.intro}</p>
             </div>
-            <a
-              href={`mailto:${profile.email}`}
-              className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md bg-ink-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-ink-800 focus:outline-none focus:ring-2 focus:ring-ink-900 focus:ring-offset-2"
-            >
-              <Mail className="h-4 w-4" aria-hidden="true" />
-              Contact
-            </a>
+            <div className="flex flex-col gap-3 sm:items-end">
+              <a
+                href={profile.links.resumePdf}
+                download="Parker-Churchill-Resume.pdf"
+                className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md bg-ink-900 px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-ink-800 focus:outline-none focus:ring-2 focus:ring-ink-900 focus:ring-offset-2"
+              >
+                <Download className="h-4 w-4" aria-hidden="true" />
+                Download PDF
+              </a>
+              <a
+                href={`mailto:${profile.email}`}
+                className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-ink-300 px-4 py-2 text-sm font-semibold text-ink-800 transition hover:-translate-y-0.5 hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-ink-900 focus:ring-offset-2"
+              >
+                <Mail className="h-4 w-4" aria-hidden="true" />
+                Contact
+              </a>
+            </div>
           </div>
 
           <div className="mt-8 grid gap-8">
