@@ -19,7 +19,7 @@ export default function Home() {
           <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-[0.8fr_1.2fr] lg:px-8">
             <SectionHeading
               eyebrow="About"
-              title="A practical builder with a product mindset."
+              title="TODO."
               description="I care about code that is understandable, interfaces that are usable, and teams that communicate clearly."
             />
             <div className="space-y-5 border-l border-ink-200 pl-6 text-base leading-8 text-ink-700">
@@ -35,7 +35,7 @@ export default function Home() {
             <SectionHeading
               eyebrow="Featured Projects"
               title="Selected work and in-progress builds."
-              description="Replace these placeholders with the projects you want recruiters and collaborators to notice first."
+              description="A couple of my favorite projects right now."
             />
             <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {projects.map((project, index) => (
@@ -64,8 +64,7 @@ export default function Home() {
           <div className="mx-auto max-w-6xl px-6 lg:px-8">
             <SectionHeading
               eyebrow="Skills"
-              title="Technologies I use to build web applications."
-              description="Grouped for quick scanning, with room to add the tools that best match your target roles."
+              title="Technologies I use."
             />
             <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
               {skills.map((group) => (
@@ -79,8 +78,8 @@ export default function Home() {
           <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
             <SectionHeading
               eyebrow="Contact"
-              title="Let us build something useful."
-              description="I am open to entry-level software engineering roles, internships, and collaborative projects."
+              title="Let's build!"
+              //description="I am open to entry-level software engineering roles, internships, and collaborative projects."
               centered
             />
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">

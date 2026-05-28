@@ -48,8 +48,8 @@ export const navItems = [
 ];
 
 export const about = [
-  "I’m a software engineer interested in building reliable tools that connect low-level systems, ",
-  "applied AI, and practical user workflows. My work spans C++ systems projects, ML-assisted productivity tools, robotics software, and full-stack applications.",
+  "I’m a software engineer interested in building reliable tools that connect low-level systems, applied AI, and practical user workflows.",
+  "My work spans C++ systems projects, ML-assisted productivity tools, robotics software, and full-stack applications.",
   "This portfolio is intentionally simple: a place to share projects, experience, and the technologies I am growing with."
 ];
 
@@ -96,8 +96,9 @@ export const experience: Experience[] = [
     period: "May 2025 - Present",
     location: "Farmington Hills, MI",
     description: [
-      "TODO",
-      "TODO."
+      "Designed and implemented software tools to optimize calibration workflows, reducing engineering time and improving process efficiency.",
+      "Applied AI/ML techniques to automate data analysis and anomaly flagging, enhancing accuracy and scalability of calibration tasks, saving calibration engineers multiple hours per week of analysis time.",
+      "Collaborated with cross-functional teams to identify workflow bottlenecks and deliver tailored software solutions and streamlined operations.",
     ]
   }
 ];

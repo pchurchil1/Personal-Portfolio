@@ -84,12 +84,12 @@ export function Hero() {
           </div>
           <div className="mt-4 grid grid-cols-2 gap-3">
             <div className="premium-panel rounded-lg border border-white p-4 shadow-sm ring-1 ring-ink-200/80 transition hover:-translate-y-0.5 hover:shadow-soft">
-              <p className="text-2xl font-bold text-ink-950">3+</p>
-              <p className="mt-1 text-sm text-ink-600">Featured builds</p>
+              <p className="text-2xl font-bold text-ink-950">10+</p>
+              <p className="mt-1 text-sm text-ink-600">Years of Coding Experience</p>
             </div>
             <div className="premium-panel rounded-lg border border-white p-4 shadow-sm ring-1 ring-ink-200/80 transition hover:-translate-y-0.5 hover:shadow-soft">
-              <p className="text-2xl font-bold text-ink-950">A11y</p>
-              <p className="mt-1 text-sm text-ink-600">Accessible details</p>
+              <p className="text-2xl font-bold text-ink-950">$3000+</p>
+              <p className="mt-1 text-sm text-ink-600">Raised for Projects</p>
             </div>
           </div>
         </div>
