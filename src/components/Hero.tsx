@@ -69,16 +69,16 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative mx-auto w-full max-w-md md:ml-auto">
           <div className="absolute -inset-4 rounded-lg border border-white/70 bg-white/40 shadow-soft" aria-hidden="true" />
-          <div className="relative aspect-[16/10] overflow-hidden rounded-lg border border-white bg-white shadow-soft ring-1 ring-ink-200/80">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-lg border border-white bg-white shadow-soft ring-1 ring-ink-200/80">
             <Image
-              src="/hero-workspace.png"
-              alt="Clean software engineering workspace with a laptop and notebook"
+              src="/profile-photo.jpg"
+              alt="Portrait of Parker Churchill"
               fill
               priority
-              sizes="(min-width: 768px) 45vw, 100vw"
-              className="object-cover"
+              sizes="(min-width: 1024px) 360px, (min-width: 768px) 40vw, 100vw"
+              className="object-cover object-[center_30%]"
             />
             <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-ink-950/35 to-transparent" aria-hidden="true" />
           </div>
