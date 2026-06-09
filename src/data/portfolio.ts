@@ -72,7 +72,7 @@ export const projects: Project[] = [
     ],
     status: "Full-stack platform",
     links: {
-      github: "https://github.com/pchurchil1/vehicle-telemetry-api"
+      github: "https://github.com/pchurchil1/vehicle-telemetry-platform"
     }
   },
   {
