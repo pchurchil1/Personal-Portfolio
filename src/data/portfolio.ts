@@ -55,6 +55,27 @@ export const about = [
 
 export const projects: Project[] = [
   {
+    title: "Vehicle Telemetry Platform",
+    summary: "A full-stack telemetry system for vehicle, ECU, signal, and event monitoring.",
+    description:
+      "Built a production-shaped platform with a FastAPI/PostgreSQL telemetry API, JWT role-based auth, background ingestion worker, React/TypeScript fleet dashboard, Redis-backed API gateway rate limiter, structured logging, health/metrics endpoints, tests, documentation, and one-command Docker orchestration.",
+    technologies: [
+      "FastAPI",
+      "Python",
+      "PostgreSQL",
+      "React",
+      "TypeScript",
+      "Redis",
+      "Docker",
+      "JWT/RBAC",
+      "Pytest"
+    ],
+    status: "Full-stack platform",
+    links: {
+      github: "https://github.com/pchurchil1/vehicle-telemetry-api"
+    }
+  },
+  {
     title: "Personal Portfolio Website",
     summary: "A responsive personal site built with Next.js, TypeScript, and Tailwind CSS.",
     description:
@@ -74,17 +95,6 @@ export const projects: Project[] = [
     status: "API tooling",
     links: {
       github: "https://github.com/pchurchil1/Atlas-REST-Explorer"
-    }
-  },
-  {
-    title: "Vehicle Telemetry API",
-    summary: "A backend API for working with vehicle telemetry and operational data.",
-    description:
-      "Created a service-oriented API foundation for receiving, organizing, and exposing telemetry-style vehicle data through structured endpoints.",
-    technologies: ["Backend", "REST APIs", "Node.js", "Telemetry"],
-    status: "Backend service",
-    links: {
-      github: "https://github.com/pchurchil1/vehicle-telemetry-api"
     }
   }
 ];
